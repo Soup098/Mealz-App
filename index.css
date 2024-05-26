@@ -9,12 +9,35 @@ html, body{
     display: flex;
     flex-direction: column;
     max-width: 320px;
-    margin: 30px auto;
+    margin: 10px auto;
 }
-
+.btn-container{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin: 5px auto;
+    background-color: azure;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+}
+.btn:hover{
+    width:98px;
+    height: 28px;
+}
+h1{
+    text-align: center;
+}
 .recipe-card{
-    max-width: 50%;
+    border: 1px solid black;
+    max-width: 300px;
+    display: flex;
+    margin: 10px auto;
 }
 .recipe-image{
-    width:34px;
+    width:100px;
+    height: 70px;
 }
