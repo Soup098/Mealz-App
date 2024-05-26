@@ -1,0 +1,20 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+.recipe-card{
+    max-width: 50%;
+}
+.recipe-image{
+    width:34px;
+}
