@@ -13,12 +13,23 @@
         <div class="container">
             <div class="btn-container">
                 <button class="btn" id="recipe-btn">Recipes</button>
-                <button class="btn" id="new-recipe">New Recipe</button>
+                <button class="btn" id="new-recipe-btn">New Recipe</button>
                 <button class="btn" id="shopping-list-btn">Shopping List</button>
             </div>
             <h1>This Weeks Meals</h1>
         </div>
         <div class="recipe-box" id="recipe-box"></div>
+        <div class="modal-container" id="new-recipe-modal">
+            <div class="modal-btn-container">
+                <button class="modal-exit-btn btn" id="modal-exit-btn">exit</button>
+            </div>
+            
+            <div class="new-recipe" >
+                <input type="text" name="recipeTitle" placeholder="Recipe Title">
+                <input type="text" name="recipeDescription" placeholder="Recipe Description">
+            </div>
+        </div>
+        
         
         <script src="index.js" type="module"></script>
     </body>

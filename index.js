@@ -1,5 +1,16 @@
 import {recipesArray} from "./recipes.js"
 
+const newRecipeBtn = document.getElementById("new-recipe-btn") 
+const newRecipeModal = document.getElementById("new-recipe-modal")
+const modalExitBtn = document.getElementById("modal-exit-btn")
+
+newRecipeBtn.addEventListener('click', function(){
+    newRecipeModal.style.display='flex'
+})
+
+modalExitBtn.addEventListener('click', function(){
+    newRecipeModal.style.display='none'
+})
 
 
 const recipeBox = recipesArray.map(function(recipe) {
