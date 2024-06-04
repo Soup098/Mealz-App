@@ -15,14 +15,14 @@ modalExitBtn.addEventListener('click', function(){
 
 const recipeBox = recipesArray.map(function(recipe) {
     return `
-    <div class="recipe-card">
+    <section class="recipe-card">
         <div class="recipe-image">
             <img src="${recipe.image}" alt="">
         </div>
     <div class="recipe-text">
         <h3>${recipe.title}</h3>
         <p>${recipe.description}</p>
-    </div>
+    </section>
     `
 }) 
 
